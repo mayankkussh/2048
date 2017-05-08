@@ -1,0 +1,202 @@
+
+body{
+    background-image: url(e60483df64f74fa2bf2d3966105302b6.jpg);
+    
+}
+main{
+    
+    background-color: antiquewhite;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+p{
+    margin: 2px;
+}
+#online{
+    padding-top: 16px;
+}
+header{
+    display: flex;
+}
+header > div{
+    width: 50%;
+    color:dimgray;
+}
+
+h3{
+    font-size: 65px;
+    padding-left: 94px;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0px;
+}
+.row {
+    display: flex;
+   }
+
+#game{
+   display: flex;
+      background-color:rgba(77, 65, 45, 1);
+}
+
+.div1{
+    padding-left: 120px;
+    text-align: center;
+    width: auto;
+    font-size: 24px;
+      margin: 5px;
+    font-weight: 800;
+    height: 80px;
+  line-height: 80px;
+    color: white;
+}
+
+.div2{
+    padding-left: 15px;
+    
+    width: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.look {
+    margin: 4px;
+    height: 80px;
+    width: 80px;
+    color: white;
+    /* border: 29px; */
+    /* border-color: black; */
+    text-align: center;
+    line-height: 80px;
+    font-size: 26px;
+}
+
+.empty {
+    background-color: #929365;;
+}
+
+.two {
+    background-color: #E4E3B5;
+}
+
+.two::after {
+    
+    content: "2";
+}
+
+.four {
+     background-color: #d0c4b1;
+}
+
+.four::after {
+    content: "4";
+}
+
+.eight {
+     background-color:#8d746c;
+}
+
+.eight::after {
+    content: "8";
+}
+
+.sixteen {
+     background-color: #605151;
+}
+
+.sixteen::after {
+    content: "16";
+}
+
+.thirtyTwo {
+     background-color: #e15e5e;
+}
+
+.thirtyTwo::after {
+    content: "32";
+}
+
+.sixtyFour {
+     background-color:#e3ac57;
+}
+
+.sixtyFour::after {
+    content: "64";
+}
+
+.oneTwentyEight {
+     background-color: #ece776;
+}
+
+.oneTwentyEight::after {
+    content: "128";
+}
+
+.twoFiftySix {
+     background-color: #368760;
+}
+
+.twoFiftySix::after {
+    content: "256";
+}
+
+.fiveOneTwo {
+     background-color: #1c2d51;
+}
+
+.fiveOneTwo::after {
+    content: "512";
+}
+
+.oneZeroTwoFour {
+     background-color: coral;
+}
+
+.oneZeroTwoFour::after {
+    content: "1024";
+}
+
+.twoZeroFourEight {
+    background-color: indianred;
+}
+
+.twoZeroFourEight::after {
+    content: "2048";
+}
+#gameEnded{
+    display: none;
+    text-align: center;
+    z-index: 1000;
+    position: absolute;
+     top: 20%;
+  left: 35%;
+    padding-top: 30px;
+    color: white;
+  width: 402px;
+  height: 265px;
+    background-image: url(education-blackboard-backgrounds-powerpoint.jpg);
+}
+#:clicked #gameEnded{
+   display: none;
+}
+#ok{
+ padding-top: 27px;  
+ }
+
+
+.score{
+    height: 40px;
+    width: 60px;
+    line-height: 40px;
+   margin-left: 100px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 6px;
+}
+#gameEnded > div{
+    display: flex;
+    padding-left: 32px;
+  font-size: larger;
+}

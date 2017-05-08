@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>2048-The Game</title>
+    <link rel="stylesheet" type="text/css" href="2048.css">
+    <script src="2048.js"></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div>
+                <h3 class="title">2048</h1>
+            </div>
+            <div>
+                <p id="online">Play Online</p>
+                <div>
+                    <p>Join the numbers and get to the <strong>2048 tile!</strong></p>
+                </div>
+                <div class="score" id="score">
+                    000
+                </div>
+            </div>
+            </div>
+        </header>
+        <div id="game">
+            <div id="gameBox">
+                <div class="row">
+                    <div id="one" class="empty look"></div>
+                    <div id="two" class="empty look"></div>
+                    <div id="three" class="empty look"></div>
+                    <div id="four" class="empty look"></div>
+                </div>
+                <div class="row">
+                    <div id="five" class="empty look"></div>
+                    <div id="six" class="empty look"></div>
+                    <div id="seven" class="empty look"></div>
+                    <div id="eight" class="empty look"></div>
+                </div>
+                <div class="row">
+                    <div id="nine" class="empty look"></div>
+                    <div id="ten" class="empty look"></div>
+                    <div id="eleven" class="empty look"></div>
+                    <div id="twelve" class="empty look"></div>
+                </div>
+                <div class="row">
+                    <div id="thirteen" class="empty look"></div>
+                    <div id="fourteen" class="empty look"></div>
+                    <div id="fifteen" class="empty look"></div>
+                    <div id="sixteen" class="empty look"></div>
+                </div>
+            </div>
+            <div id="instructionBox">
+                <div class="div1">
+                    <p>How To Play</p>
+                </div>
+                <div class="div2">
+                    <p>Press -</p>
+                    <p>w- Move boxes up</p>
+                    <p>a- Move boxes left</p>
+                    <p>s- Move boxes down</p>
+                    <p>d- Move boxes right</p>
+                    <p>F5- To start a new game.</p>
+                </div>
+            </div>
+        </div>
+        <div id="gameEnded">
+            <h1>Game Finished</h1>
+            <div>
+            <p>Total moves</p>
+            <div class="score" id="moves">000</div>
+            </div>
+            <div id="ok">
+            <p>Press F5 to restart the game.</p>
+                </div>
+           
+        </div>
+    </main>
+    <script>
+        function init() {
+            var g = Game();
+            g.init();
+        }
+        window.addEventListener('load', init);
+    </script>
+</body>
+
+</html>
